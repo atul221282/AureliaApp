@@ -3,7 +3,7 @@ import {Router, RouterConfiguration} from 'aurelia-router'
 export class ChildRouter {
   heading = 'Child Router';
   router: Router;
-
+    //child routing
   configureRouter(config: RouterConfiguration, router: Router) {
     config.map([
       { route: ['', 'welcome'], name: 'welcome',       moduleId: 'welcome',       nav: true, title: 'Welcome' },
